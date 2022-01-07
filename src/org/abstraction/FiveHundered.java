@@ -37,11 +37,16 @@ public class FiveHundered implements HunderedCc,Abstraction {
 		System.out.println("BAJAJ");
 		
 	}
+	
+	
 	public static void main(String[] args) {
 		FiveHundered a=new FiveHundered();
 		a.bajaj();a.bmw();a.hero();
 		a.honda();
 		a.tvs();a.yamaha();
+		
+		System.out.println("hey buddy");
+		System.out.println("cool");
 	}
 }
 

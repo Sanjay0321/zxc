@@ -1,24 +1,12 @@
 package org.abstraction;
 
-public class FiveHundered implements HunderedCc,Abstraction {
+public class FiveHundered implements HunderedCc{
 
-	@Override
-	public void tvs() {
-		System.out.println("TVS");
-		
-	}
+	
 
-	@Override
-	public void bmw() {
-		System.out.println("BMW");
-		
-	}
+	
 
-	@Override
-	public void yamaha() {
-		System.out.println("YAMAHA");
-		
-	}
+
 
 	@Override
 	public void hero() {
@@ -41,13 +29,17 @@ public class FiveHundered implements HunderedCc,Abstraction {
 	
 	public static void main(String[] args) {
 		FiveHundered a=new FiveHundered();
-		a.bajaj();a.bmw();a.hero();
+		a.bajaj();a.hero();
 		a.honda();
-		a.tvs();a.yamaha();
+
+		
 		
 		System.out.println("hey buddy");
 		System.out.println("cool");
-	}
+
+
+
+
 }
 
 

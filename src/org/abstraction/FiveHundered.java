@@ -25,12 +25,18 @@ public class FiveHundered implements HunderedCc{
 		System.out.println("BAJAJ");
 		
 	}
+	
+	
 	public static void main(String[] args) {
 		FiveHundered a=new FiveHundered();
 		a.bajaj();a.hero();
 		a.honda();
-	
-	}
+
+		
+		
+		System.out.println("hey buddy");
+		System.out.println("cool");
+
 
 
 
